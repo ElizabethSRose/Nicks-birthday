@@ -59,29 +59,29 @@ h1, h2, h3, h4, p {
     height: 200px;
     border: 6px solid white;
     border-radius: 10px;
-    background-image: url("Santa-images/gift-cover.jpg");
+    background-image: url("gift-cover.jpg");
     background-size: cover;
 }
 
 #gift-img-happy:hover {
-    background-image: url("Santa-images/happy.gif");
+    background-image: url("happy.gif");
 }
 
 #gift-img-shocked:hover {
-    background-image: url("Santa-images/shocked.gif");
+    background-image: url("shocked.gif");
 }
 
 #gift-img-cocoa:hover {
-    background-image: url("Santa-images/cocoa.gif");
+    background-image: url("cocoa.gif");
 }
 
 #gift-img-badass:hover {
-    background-image: url("Santa-images/badass.gif");
+    background-image: url("badass.gif");
 
 }
 
 #gift-img-fart:hover {
-    background-image: url("Santa-images/fart.webp");
+    background-image: url("fart.webp");
 }
 
 #footer {
