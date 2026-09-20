@@ -1,0 +1,107 @@
+@font-face{
+    src: url("Wonderia.otf");
+    font-family: wonderia;
+}
+body {
+    text-align: center;
+    font-family: wonderia;
+    background: linear-gradient(#E40A2D, #DAA520);
+    color: #ffffff;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#santa-img {
+    width: 230px;
+    border-radius: 30%;
+    border: 6px solid #2fa762;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #2fa762;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #2fa762;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 300px;
+    height: 200px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("Santa-images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("Santa-images/happy.gif");
+}
+
+#gift-img-shocked:hover {
+    background-image: url("Santa-images/shocked.gif");
+}
+
+#gift-img-cocoa:hover {
+    background-image: url("Santa-images/cocoa.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("Santa-images/badass.gif");
+
+}
+
+#gift-img-fart:hover {
+    background-image: url("Santa-images/fart.webp");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
